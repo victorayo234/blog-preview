@@ -89,11 +89,36 @@ main {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
+    body {
+        padding: 10px 0;
+    }
     main {
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         align-items: center;
+        padding: 10px;
+    }
+    .content .img img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+    .content .texts h3 {
+        font-size: 18px;
+    }
+
+    .content .texts h5,
+    .content .texts h4,
+    .greg h4 {
+        font-size: 12px;
+}
+   .content .texts p {
+        font-size: 13px;
+        line-height: 20px;
+}
+    .greg{
+        gap: 10px
     }
 
 }
